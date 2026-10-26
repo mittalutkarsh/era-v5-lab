@@ -50,3 +50,57 @@ d718670c65e28a3f,full,clean,,,,chiropractor bio
 c38af51347b6da60,full,fix,C1,'Leave a Reply' at offset 4474,,
 bd61d1eb84a18b17,full,fix,C3,'profile of Tom Brady on' at offset 87,,link dropped; mostly quoted article
 8b697f9f7d91de38,full,drop,C5;C3,list of news teasers from offset 0|teasers cut mid-sentence 'Because' at offset 429; 'giant' at offset 717,,category listing page
+d7d9f2c89773b700,full,drop,C4;C5,unrelated sentences joined from offset 36 ('Actor Joel Brooks')|Korean casino tag 'Archivo de la etiqueta: ___ ___ __' at offset 0,,sentence-salad spam page
+6c6a180069b69bdb,full,fix,C1,'Leave a Reply' at offset 40433,,long blog reply + reader comments; pingbacks from 21826
+f7f4db20995eb625,full,fix,C1,'HealthWiki >' breadcrumb at offset 59; 'DENT Ch4 Page 52-1.png' at offset 198; 'This page was updated' at offset 3920,,health guide text is good
+8ae5d5afe72aa34f,full,fix,C1,'bomb 720' at offset 0,,image caption junk; political quote
+56b9f143e5453f22,full,fix,C1,'comments powered by Disqus' at offset 3118,,tabs are fine; resource links missing at 3041
+13c4115cd5701df2,full,clean,,,,author blog
+c64a732a64b1ce8b,full,drop,C5;A5,trading-app ad block '#1 Rated Trading App' at offset 84; keyword list at end|'na•ve' with combining diaeresis at offset 5013; 'Ca__rdenas' at offset 20021,5013 U+0069 + U+0308 COMBINING DIAERESIS|20023 U+0020 + U+0301 COMBINING ACUTE ACCENT,binary-options spam with scraped academic gibberish
+e1d3971ca464902c,full,clean,,,,spun SEO text (no matching code)
+922870aefb770bb6,full,fix,C1;C3,comment list 'Wyn said...' at offset 13516|'Today's Wild Card author is:' followed by nothing at offset 96,,blog tour post; book excerpt; author/links removed
+a874cd0a1d145148,full,fix,C1,forum profile box 'Offline Md. Al-Amin' at offset 50,,
+93e986e244fb423f,full,clean,,,,counsellor blog
+3dd2e31fb90bbd44,full,fix,C1,related-post links 'Questions About Treatments...' at offset 2680,,SEO article
+4a22b0cbca7869fc,full,fix,A1;C1,BOM at offset 0|'Family History and Genealogy Services' at offset 35,0 U+FEFF ZERO WIDTH NO-BREAK SPACE,viewer shows it as _BOM_
+a487281daeb5f82d,full,fix,C1,'Read our next post' at offset 3161,,
+71f25549c2c4200d,full,fix,F1,email at offset 2436,,church FAQ; contested viewpoint not F3
+cfc985b22333e9ec,full,fix,C1,'Categories: Home Improvement' at offset 2601,,
+6d42edb6050b961a,full,fix,C1,'WRITTEN BY' byline template at offset 39; 'Leave a Reply' at offset 3330; 'Bot Detection' at offset 3346,,
+2810947a50680faf,full,fix,C1;C3,page nav 'Next Part Home - Random Browse' at offset 57 and at end|book stops at end of part 1,,public-domain novel (Sax Rohmer); long blank runs
+2c3b0c50e1017c59,full,drop,C4;C5,scraped snippets joined from offset 474 ('Meine B...')|keyword title + business address at offset 54,,auto-generated SEO page; business phone not F1
+bf37f4904830105a,full,fix,C1,'All comments are moderated' at offset 4404,,news post + comments
+e22858e9e5d594cd,full,fix,C1;H3,'No comments:' at offset 6986|'Source : Wikipedia' at offset 6966,,copied Wikipedia bio; infobox flattened 'Born18' at 25
+3dc93ffbd87ba839,full,drop,A3;C5,mojibake 'wasnŽö´¾»Ý' at offset 1432|product keywords 'ray bans' at offset 587; 'oakley' at offset 655,1436 U+00E9 + U+02C6 + U+00A5 + U+00E6 + U+00AA + U+203A,spun spam with injected product keywords
+eacd1fb476183820,full,fix,C1,'_ Archives _' at offset 0,,blog tag page; opinion posts
+b2133469fe548118,full,fix,C1,'K-bay logo Established in 1980' + phone header at offset 0,,business phones not F1; section body missing at 432
+5f743d2b23b6fcee,full,fix,C1,image alt text 'Lance-Earl-Ladn-C-trucs' at offset 42; 'holder male' at offset 612; 'holderfemale' at offset 845,,team page
+b5b565dd81a0b965,full,fix,C1,'Select Page' at offset 0,,
+699d000592d4dbdd,full,fix,B2,'[/center]' at offset 347,,BBCode tag; history article good
+3f9cf2259ef9ba72,full,fix,C1,'Skip to main content' at offset 0; 'Creative Commons License' at offset 3314,,library guide
+e58efd78573f2454,full,fix,C1,'No comments:' at offset 9273,,political blog with WSJ quotes
+70b6a3dc130af8af,full,fix,C1,'Browse the full resolution frame' at offset 1809; 'Back to Images' at offset 1873,,
+98e2b9187fb93582,full,clean,,,,329 chars; byline only
+c4346067f6dc6cc7,full,clean,,,,
+d8d4301dfe34641c,full,fix,C1;C3,'Read daily news briefs' at offset 1626|verb missing 'Ali Khamenei the' at offset 49,,link text dropped
+3e63f6dac09a37b8,full,drop,C1;B4,'facebook logo-blue twitter logo-blue' at offset 23|website template placeholder text from offset 72; 'John Doe' at offset 361,,no real content
+2b986e7167fb5edd,full,clean,,,,
+943b00214cee55c2,full,fix,C1,'Topic: Mobile Apps Author:' at offset 24,,tag page with two excerpts
+0b139d9931d96986,full,drop,C5;C1,keyword link list 'Business use for car insurance' at offset 2857|'Free AUTO INSURANCE Quotes' at offset 0,,spun insurance spam
+dcc9a0b78885599a,full,drop,C5;C4,spam keyword 'sex dating in hardin texas' at offset 198|Wikipedia text + unrelated news joined (news from 1734),,dating-spam doorway page
+046a9a747cc3ea58,full,clean,,,,band interview
+65cd48c16af5d0e9,full,fix,C1,'Comments are closed.' at offset 5069,,
+4f2d4cdfcce225a6,full,clean,,,,
+511c6e69e49229ec,full,fix,C3,'Source: Surgical errors: ... -' link dropped at offset 472,,embed removed
+e7c590189ef6675b,full,fix,C1,'Originally uploaded by Usonian.' at offset 46,,Flickr caption
+9d61ae6f81c7a9a6,full,clean,,,,
+0b737aae9e097898,full,clean,,,,religious discourse
+09319f191c620efe,full,clean,,,,WW1 memorial page; deceased 1917 so not F1
+ebc06bd761ef53df,full,clean,,,,393 chars
+a06f15e00a262200,full,fix,C1,'Post a Comment' at offset 4731,,
+4df6044c9bf97eab,full,clean,,,,
+4fa68a4510862f88,full,fix,C1,'Share this thread' at offset 497; 'Buy me a coffee :)' x2 at offset 516,,forum thread
+b9ad87575375859e,full,fix,C1,'Off the Kuff Rotating Header Image' at offset 0; 'Related Posts:' at offset 107,,post body missing; mostly comments
+9d29ecddfb4fec17,full,drop,F2,IMO 1995 problems 1-6 from offset 0,,olympiad problems; check against G9 fingerprints
+0ebbad85e2d93ed0,full,fix,C1,image caption 'ondrej krajnak - 12' at offset 835,,
+5d1d7bc9a6053135,full,clean,,,,photo captions only
