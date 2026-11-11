@@ -242,6 +242,7 @@ fc3df208c596140d,new,NEW-template-pages,0-13254,,"unit-converter page generated 
 fc3df208c596140d,missed,B4,10365-10388,,unfilled template code left in the text: a random-element call and a template variable name,ai
 487be44b6ec97e28,missed,C1,2-193,,"integer-sequence site chrome left after spec v1 removed two footer lines: donation banner, hints line, link labels, navigation bar",ai
 35e1acff2d77be17,missed,C1,0-41,,browser warning at the start and a stray link title for a division word-problem page in the middle,ai
+5a93d530d9026175,missed,F2,2132-2242,,"a past exam question with its options that is in the MILU test set (Team 9 decontam scan, #342: milu:test:18603, verdict real); the job ran without F2",manual
 5a93d530d9026175,missed,C1,3797-3831,,quiz-widget line at the end; answer options flattened into one line per question,ai
 e1d06f4e49257cfe,missed,C1,2801-3167,,"site footer: search prompt, a feedback line (the job's F1 rule replaced the site's contact email in it with a placeholder), a recent-articles list with dates",ai
 0930f3267a518a19,missed,C1,1012-1032,,"Q&A site comment signatures (user name, date, time) on all 7 comments",ai

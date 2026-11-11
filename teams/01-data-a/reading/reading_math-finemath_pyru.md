@@ -2,8 +2,8 @@
 
 Reader: pyru. Row 9 of the Week 2 assignments (math-megamath is read by the partner). 199 docs: the 100 picked with
 `pick_docs.py`, plus 99 extra docs from my earlier read (PR #27), kept as the lead asked.
-The findings are in `reading_math-finemath_pyru.csv`: one row per finding, 331 rows, positions only.
-Rows 1-184 are the 100, rows 185-331 the extra 99.
+The findings are in `reading_math-finemath_pyru.csv`: one row per finding, 332 rows, positions only.
+Rows 1-184 are the 100, rows 185-332 the extra 99.
 
 ## How it was read
 
@@ -41,13 +41,15 @@ Rows 1-184 are the 100, rows 185-331 the extra 99.
 - **Method: AI-assisted,** as for the 100. Claude suggested 148 findings on that sample of 100 on 1 Nov. I accepted
   all 148; I rejected none and added none. 147 of them are on these 99 docs, all with `source` = `ai`. The 10 docs with
   no suggestion have no rows.
+- **Decontam scan:** one more row comes from Team 9's scan (#342), not from the reading: F2 in `5a93d530d9026175`,
+  with `source` = `manual`. Of the 35 math-finemath docs in that scan, it is the only one in these 199 docs.
 - **Kinds:** as in this README. NEW codes, and diseases with no math rule (B1, C4, E1, E2), are `new` (PR #27 had them
   as `missed`). 13 rows were marked unsure in the page. This README has no unsure kind, so they keep the closest kind
   and their `why` starts with `unsure:` (B5 5, C5 4, NEW-ai-generated-text 3, NEW-unattributed-copy 1).
 
 ## Findings table
 
-331 findings in 180 of the 199 docs; the other 19 docs have no finding. Kinds: missed 220, new 104, harm 7.
+332 findings in 180 of the 199 docs; the other 19 docs have no finding. Kinds: missed 221, new 104, harm 7.
 The last two columns split the docs affected between the 100 and the extra 99.
 
 | code | kind | docs affected | % of docs read | the 100 | extra 99 |
@@ -77,6 +79,7 @@ The last two columns split the docs affected between the 100 and the extra 99.
 | D3 | missed | 1 | 0.5% | 0 | 1 |
 | DA-D3-005 | harm | 1 | 0.5% | 1 | 0 |
 | E1 | new | 1 | 0.5% | 0 | 1 |
+| F2 | missed | 1 | 0.5% | 0 | 1 |
 | NEW-dropped-ligatures | new | 1 | 0.5% | 0 | 1 |
 | NEW-hyphen-split-words | new | 1 | 0.5% | 1 | 0 |
 | NEW-interleaved-columns | new | 1 | 0.5% | 1 | 0 |
@@ -110,6 +113,8 @@ Where the existing rules miss (from the `missed` rows):
   sign, which reads as maths.
 - **B4 (4 docs):** notebook export leftovers, unfilled template code, slide placeholder text and an empty template
   value.
+- **F2 (1 doc):** `5a93d530d9026175` holds a past exam question that is in the MILU test set (Team 9 scan, #342). The
+  job ran without F2, and the reading did not catch it.
 
 ## New diseases
 
