@@ -118,8 +118,9 @@ Where the existing rules miss (from the `missed` rows):
 
 ## New diseases
 
-The README bar is 2 or more docs in a domain (1% of 200). The first ten rows here are at or above it, so they go to
-spec v1.1.
+The README bar is 2 or more docs in a domain (1% of 200). The first ten rows here are at or above it. The spec v1.1
+list (#365) pools both math packs (299 docs, so the bar is 3 docs). There the seven NEW rows qualify; B1, D4 and E2 are
+already in `DISEASES.md`, with no math rule yet.
 
 | name | what it is | docs |
 |---|---|---|
